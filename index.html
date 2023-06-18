@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          <form action="server.php" class="register-form" >
+            <input  name="name" type="text" placeholder="name"/>
+            <input  name="password" type="password" placeholder="password" autocomplete ="urrent-password" />
+            <input  name="email"  type="email" placeholder="email address" class="_email"/>
+            <button class="btn btn-style">create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+          </form>
+          <form action="server.php" class="login-form show">
+            <input  name="username" type="text" placeholder="username"/>
+            <input  name="password" type="password" placeholder="password" autocomplete ="urrent-password"/>
+            <button class="btn btn-style">login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          </form>
+        </div>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
